@@ -1,0 +1,17 @@
+ Publish MassTransit.FlowGraph.Tests.AFoo
+     Publish MassTransit.FlowGraph.Tests.BFoo
+         Send MassTransit.FlowGraph.Tests.EFoo
+         Publish MassTransit.FlowGraph.Tests.CFoo
+             Publish MassTransit.FlowGraph.Tests.DFoo
+             Publish MassTransit.FlowGraph.Tests.DFoo
+     Publish MassTransit.FlowGraph.Tests.BFoo
+         Send MassTransit.FlowGraph.Tests.EFoo
+         Publish MassTransit.FlowGraph.Tests.CFoo
+             Publish MassTransit.FlowGraph.Tests.DFoo
+             Publish MassTransit.FlowGraph.Tests.DFoo
+
+ Publish MassTransit.FlowGraph.Tests.BFoo
+     Send MassTransit.FlowGraph.Tests.EFoo
+     Publish MassTransit.FlowGraph.Tests.CFoo
+         Publish MassTransit.FlowGraph.Tests.DFoo
+         Publish MassTransit.FlowGraph.Tests.DFoo
